@@ -1,3 +1,3 @@
-git clone $REPO_URL ok && cd wzmlx
+git clone $REPO_URL wzmlx && cd wzmlx
 docker build . -t wzmlx
 $START_CMD
